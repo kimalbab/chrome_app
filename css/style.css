@@ -1,0 +1,160 @@
+@import url("https://use.typekit.net/dal1veq.css");
+
+
+
+
+.hidden {
+    display:none;
+}
+
+.alldivs {
+    display:flex;
+    margin-top: 110px;
+}
+
+img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:100%;
+}
+
+
+.first-box{
+    width: 15vw;
+    height: 300px;
+    position: relative;
+    justify-content :center;
+    align-items: center;
+    background-color: white;
+    
+    border:none;
+    opacity: 0.7;
+    margin: 160px 30px 0px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#input-todo{
+    border : none;
+    background-color: transparent;
+    font-family:"210 옴니고딕OTF" ;
+    font-weight: 055;
+    font-style: 050;
+    font-size: 18px;
+    color : black;
+    padding-top : 10px;
+}
+
+.second-box{
+    width: 60vw;
+    position: relative;
+    justify-content :center;
+    align-items: center;
+    margin-top:10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: superior-title, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color : white;   
+    opacity:0.8;
+    
+}
+
+h2 {
+    font-family: superior-title, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color : white;
+    position : relative;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+#input-name {
+    width: 60vw;
+    height: 50px;
+    border:none;
+    border-bottom : 2px solid white;
+    background-color: transparent;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:100px;
+    text-align: center;
+
+    font-family: "210 옴니고딕OTF", superior-title ;
+    
+    
+    font-style: normal;
+    font-size: 25px;
+    color : white;
+    
+}
+
+#input-name-submit {
+    width: 60vw;
+    height: 50px;
+    background-color: white;
+    border:none;
+    opacity: 0.4;
+    margin-top:20px;
+    
+    justify-content: center;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+
+    font-family: "210 옴니고딕OTF" ;
+   
+    font-style: normal;
+    font-size: 20px;
+    color : black;
+}
+
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+   font-family:"210 옴니고딕OTF" ;
+}
+
+#input-name::placeholder {
+    color:white;
+    font-family:"210 옴니고딕OTF" ;}
+
+
+#quote {
+    font-family: superior-title, serif;
+    font-family: "210 수필명조OTF";
+    font-weight: 040;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+#todo-list {
+    font-family:"210 옴니고딕OTF" ;
+    list-style:none;
+    font-size: 10px;
+}
