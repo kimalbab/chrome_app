@@ -1,6 +1,5 @@
 @import url("https://use.typekit.net/dal1veq.css");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;600;700;800;900&family=Noto+Serif+KR:wght@300;400;500;600;700;900&family=Song+Myung&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;600;700;800;900&family=Noto+Serif+KR:wght@300;400;500;600;700;900&family=Song+Myung&family=Stylish&display=swap');
 .hidden {
     display:none;
 }
@@ -30,7 +29,8 @@ img {
     justify-content :center;
     align-items: center;
     background-color: white;
-    
+    font-family: 'Stylish', sans-serif;
+    font-weight: 400;
     border:none;
     opacity: 0.7;
     margin: 240px 30px 0px 30px;
@@ -41,14 +41,25 @@ img {
 #input-todo{
     border : none;
     background-color: transparent;
-    font-family:'Song Myung', serif;
-    font-weight: 055;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 400;
     font-style: 050;
     font-size: 18px;
     color : black;
     padding-top : 10px;
     outline : none;
 }
+
+button {
+    border : none;
+    outline : none;
+    padding : 5px;
+    font-family: superior-title, serif;
+    font-size : 10px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
 
 .second-box{
     width: 60vw;
@@ -62,12 +73,13 @@ img {
 
 
 h1 {
-    font-family: 'Noto Serif KR', serif;
-    font-weight: 600;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 40px;
     color : white;   
     opacity:0.8;
+    margin-top: 50px;
     
     
 }
@@ -101,7 +113,7 @@ h2 {
     text-align: center;
     outline : none;
 
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Song Myung', serif;
     
     font-style: normal;
     font-size: 28px;
@@ -155,7 +167,8 @@ h2 {
 }
 
 #todo-list {
-    font-family: 'Song Myung', serif;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 400;
     list-style:none;
     font-size: 20px;
 }
@@ -170,6 +183,6 @@ h2 {
     display: flex;
     position: relative;
     justify-content :flex-end;
-    margin: 0px 100px 0px -100px;
+    margin: -60px 100px 0px -100px;
     
 }
