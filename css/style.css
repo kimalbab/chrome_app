@@ -1,7 +1,5 @@
 @import url("https://use.typekit.net/dal1veq.css");
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;600;700;800;900&family=Noto+Serif+KR:wght@300;400;500;600;700;900&family=Song+Myung&display=swap');
 
 .hidden {
     display:none;
@@ -35,7 +33,7 @@ img {
     
     border:none;
     opacity: 0.7;
-    margin: 160px 30px 0px 30px;
+    margin: 240px 30px 0px 30px;
     border-radius: 20px;
     text-align: center;
 }
@@ -43,12 +41,13 @@ img {
 #input-todo{
     border : none;
     background-color: transparent;
-    font-family:"210 옴니고딕OTF" ;
+    font-family:'Song Myung', serif;
     font-weight: 055;
     font-style: 050;
     font-size: 18px;
     color : black;
     padding-top : 10px;
+    outline : none;
 }
 
 .second-box{
@@ -56,19 +55,20 @@ img {
     position: relative;
     justify-content :center;
     align-items: center;
-    margin-top:10px;
+    margin-top:0px;
     border-radius: 50px;
     text-align: center;
 }
 
 
 h1 {
-    font-family: superior-title, serif;
-    font-weight: 700;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
     font-style: normal;
     font-size: 40px;
     color : white;   
     opacity:0.8;
+    
     
 }
 
@@ -99,12 +99,12 @@ h2 {
     margin: 0 auto;
     margin-top:100px;
     text-align: center;
+    outline : none;
 
-    font-family: "210 옴니고딕OTF", superior-title ;
-    
+    font-family: 'Noto Serif KR', serif;
     
     font-style: normal;
-    font-size: 25px;
+    font-size: 28px;
     color : white;
     
 }
@@ -114,6 +114,7 @@ h2 {
     height: 50px;
     background-color: white;
     border:none;
+    outline : none;
     opacity: 0.4;
     margin-top:20px;
     
@@ -122,10 +123,10 @@ h2 {
     text-align: center;
     cursor: pointer;
 
-    font-family: "210 옴니고딕OTF" ;
-   
+    font-family: 'Song Myung', serif;
+    
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     color : black;
 }
 
@@ -133,20 +134,20 @@ h2 {
 
 ::-webkit-input-placeholder {
    text-align: center;
-   font-family:"210 옴니고딕OTF" ;
+   font-family: 'Song Myung', serif;
 }
 
 #input-name::placeholder {
     color:white;
-    font-family:"210 옴니고딕OTF" ;}
+    font-family: 'Song Myung', serif;
+}
 
 
 #quote {
-    font-family: superior-title, serif;
-    font-family: "210 수필명조OTF";
-    font-weight: 040;
+    font-family: 'Song Myung', serif;
+   
     font-style: normal;
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     text-align: center;
     padding: 100px;
@@ -154,7 +155,21 @@ h2 {
 }
 
 #todo-list {
-    font-family:"210 옴니고딕OTF" ;
+    font-family: 'Song Myung', serif;
     list-style:none;
-    font-size: 10px;
+    font-size: 20px;
+}
+
+
+#weather {
+    color: white;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    font-family: superior-title, serif;
+    font-size : 20px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content :flex-end;
+    margin: 0px 100px 0px -100px;
+    
 }
