@@ -29,8 +29,9 @@ img {
     justify-content :center;
     align-items: center;
     background-color: white;
-    font-family: 'Stylish', sans-serif;
+    font-family: omnigothic, sans-serif;
     font-weight: 400;
+    font-style: normal;
     border:none;
     opacity: 0.7;
     margin: 240px 30px 0px 30px;
@@ -41,9 +42,9 @@ img {
 #input-todo{
     border : none;
     background-color: transparent;
-    font-family: 'Stylish', sans-serif;
+    font-family: omnigothic, sans-serif;
     font-weight: 400;
-    font-style: 050;
+    font-style: normal;
     font-size: 18px;
     color : black;
     padding-top : 10px;
@@ -152,6 +153,8 @@ h2 {
 #input-name::placeholder {
     color:white;
     font-family: 'Song Myung', serif;
+    text-align: center;
+
 }
 
 
@@ -167,10 +170,12 @@ h2 {
 }
 
 #todo-list {
-    font-family: 'Stylish', sans-serif;
+    font-family: omnigothic, sans-serif;
     font-weight: 400;
+    font-style: normal;
     list-style:none;
-    font-size: 20px;
+    font-size: 16px;
+    color : #8e94ad;
 }
 
 
